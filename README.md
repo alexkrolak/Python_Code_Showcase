@@ -58,6 +58,7 @@ The primary goal is to show how I:
   - `numpy`
   - `pandas`
   - `matplotlib`
+  - `seaborn`
   - `scikit-learn`
   - `statsmodels`
   - `xgboost` (optional, for advanced modeling)
