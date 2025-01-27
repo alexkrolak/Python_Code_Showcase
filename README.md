@@ -67,3 +67,28 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+1. Clone or download this repository.
+2. Install necessary libraries (above).
+3. Run the notebooks in order:
+  - Generate_Data.ipynb
+  - EDA.ipynb
+  - Feature_Engineering.ipynb
+  - Modeling.ipynb
+5. Observe the random data generation and how the pipeline processes it.
+Since the data is fully random, you won’t see meaningful real-world outcomes. However, the steps illustrate a typical data science workflow end-to-end.
+
+
+## License
+This project is provided under an open-source license for demonstration. Feel free to adapt the ideas. If you need more restrictive usage terms, update this section.
+
+## Contact
+Author: Alex Krolak
+
+Email: alexander.krolak@gmail.com 
+
+[LinkedIn](https://www.linkedin.com/in/alex-krolak-56ab7a73/)
+
+For feedback or inquiries, please reach out or open an issue. Thanks for visiting!
