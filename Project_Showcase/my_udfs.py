@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
+# Function to view the uniques of each categorical in a dataset in tabular format
 def view_cat_uniques(df, columns):
     """
     Prints the value counts (distribution) of each column in columns, sorted by descending frequency.
@@ -26,7 +27,9 @@ def view_cat_uniques(df, columns):
             .sort_values('count', ascending=False)
         )
         print(distribution.to_string(index=False))
-        
+
+
+# Functions to imitate R's DataExplorer package functionality
 # Creates a histogram for any/all numeric columns        
 def plot_histogram(df):
     """
@@ -61,6 +64,7 @@ def plot_histogram(df):
     plt.tight_layout()
     plt.show()
 
+    
 # Creates a barplot for each categorical variable
 def plot_bar(df, max_unique=50):
     """
